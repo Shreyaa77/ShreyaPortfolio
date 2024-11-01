@@ -10,7 +10,7 @@ function About() {
 <Navbar/>
 
 {/*About*/}
-<section id='About' className='section-about'>
+<section id='About' className='section About'>
   <h2 className='bold'>About</h2>
   <p>Hello I'm a International Masters student at the University of limerick.</p>
 </section>
