@@ -1,8 +1,16 @@
-body {
+
+.home-body {
+    background-image: url('/images/cool.avif'); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
     margin: 0; /* Remove default body margin */
     font-family: 'Helvetica Neue', Arial, sans-serif; /* Set default font family */
-    color: #333; /* Set default text color */
+    color: #e0dbdb; /* Set default text color */
     line-height: 1.6; /* Set line height for better readability */
-    background-color: #563434; /* Set background color to light gray */
+    background-color: #0b0808; /* Set background color to light gray */
     font-size: 20px; /* Set a default font-size */
+    padding-top:100px;
+    padding-left: 50px;
+    min-height: 100vh;
 }

@@ -1,15 +1,9 @@
 /* Body Styles */
-body {
-  margin: 0;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #333;
-  background-color: #4d1a71;
-  font-size: 20px;
-}
+
 
 /* Navbar Styles */
 .header {
-  background-color: #17031a;
+  background-color: #777377;
   padding: 1rem;
 }
 
@@ -49,12 +43,14 @@ body {
 }
 
 /* Footer Styles */
+
 .footer {
   text-align: center;
   padding: 1rem;
   background-color: #282c34;
   color: white;
-  margin-top: 2rem;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer p {

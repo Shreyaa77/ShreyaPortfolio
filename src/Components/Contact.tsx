@@ -8,7 +8,7 @@ function Contact() {
 <Navbar/>
 
     {/*Contact section */}
-<section id="contact" className="section-contact">
+<section id="contact" className="contact-body">
 <h2 className='bold'>Contact Me:</h2>
 <p>Contact number: <a href="tel:+353 899828713">+353 899828713</a></p>
 <p>Email: <a href="mailto:24150002@studentmail.ul.ie">24150002@studentmail.ul.ie</a></p> {/* Email link */}

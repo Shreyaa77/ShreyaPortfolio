@@ -1,9 +1,9 @@
 const Navbar = () => {
     return (
-        <header className="header">
+        <header className="header fixed min-w-full">
         <nav className="navbar">
         <div className="logo-container">
-   
+            <img src="/images/ul-logo.svg" className="h-14 w-44"/>
          </div> 
          
          <ul className='nav-links'>
