@@ -3,7 +3,7 @@
 
 /* Navbar Styles */
 .header {
-  background-color: #777377;
+  background-color: #b8b8ff;
   padding: 1rem;
 }
 
@@ -33,13 +33,15 @@
 }
 
 .nav-links a {
-  color: #b6b1b1;
+  color: #241919;
   font-weight: bold;
+  font-size: 25px;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #3e4c50;
+  color: #435154;
+  text-decoration: underline;
 }
 
 /* Footer Styles */

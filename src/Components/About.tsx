@@ -1,5 +1,5 @@
 
-import "../App.css"
+import "../Components/About.css"
 import Footer from "./footer"
 import Navbar from "./navbar"
 function About() {
@@ -10,9 +10,13 @@ function About() {
 <Navbar/>
 
 {/*About*/}
-<section id='About' className='section About'>
-  <h2 className='bold'>About</h2>
-  <p>Hello I'm a International Masters student at the University of limerick.</p>
+<section id='About' className='about-body'>
+  <h2 className='about'>About</h2>
+  <p className="me">I’m Shreya, an international student at the University of Limerick. 
+For over four years, I’ve worked in various areas of Information Technology, focusing on managing, maintaining, and troubleshooting computer systems. 
+Currently, as I pursue my Master’s, I spend my time researching, designing, prototyping, and coding.
+When I'm not studying, I enjoy curling up with a good book or sketching and dreaming about traveling the world.
+</p>
 </section>
 
 <Footer/>
