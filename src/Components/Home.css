@@ -1,0 +1,8 @@
+body {
+    margin: 0; /* Remove default body margin */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Set default font family */
+    color: #333; /* Set default text color */
+    line-height: 1.6; /* Set line height for better readability */
+    background-color: #563434; /* Set background color to light gray */
+    font-size: 20px; /* Set a default font-size */
+}
