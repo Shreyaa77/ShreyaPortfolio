@@ -1,6 +1,6 @@
 
 .home-body {
-    background-image: url('/public/images/mountain-nature-scenery-wallpaper-3840x2160_54.jpg'); /* Replace with the actual path to your image */
+    background-image: url('/src/images/mountain-nature-scenery-wallpaper-3840x2160_54.jpg'); /* Replace with the actual path to your image */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

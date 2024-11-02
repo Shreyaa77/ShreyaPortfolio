@@ -1,6 +1,9 @@
 import "../Components/Blog.css";
 import Footer from "./footer";
 import Navbar from "./navbar";
+import headshot from "./../images/Business type Headshot.jpg";
+import aes from "./../images/Aesthetic Photo.jpg";
+import pass from "./../images/Photo showing passion.jpg";
 function Blog() {
   return (
     <>
@@ -12,7 +15,7 @@ function Blog() {
           <p>
             <img
               className="img1"
-              src="/public/images/Business type Headshot.jpg"
+              src={headshot}
             ></img>
           </p>
           <p className="story pt-20">
@@ -24,7 +27,7 @@ function Blog() {
           <p>
             <img
               className="img2"
-              src="/public/images/Aesthetic Photo.jpg"
+              src={aes}
             ></img>
           </p>
           <p className="story2 text-center pt-20">
@@ -43,7 +46,7 @@ function Blog() {
           <p>
             <img
               className="img3"
-              src="/public/images/Photo showing passion.jpg"
+              src={pass}
             ></img>
           </p>
           <p className="story3 text-center pt-20">

@@ -1,5 +1,10 @@
 import "../Components/Skill.css";
 import Navbar from "./navbar";
+import sk1 from "./../images/Html Logo.png";
+import sk2 from "./../images/CSS logo.webp";
+import sk3 from "./../images/tailwind logo.png";
+import sk4 from "./../images/figma logo.png";
+import sk5 from "./../images/canva.jpg";
 function Skills() {
   return (
     <>
@@ -11,17 +16,17 @@ function Skills() {
 
         <div className="image-container">
           <p>
-            <img className="html" src="/public/images/Html Logo.png"></img>
+            <img className="html" src={sk1}></img>
           </p>
 
           <p>
-            <img className="CSS" src="/public/images/CSS logo.webp"></img>
+            <img className="CSS" src={sk2}></img>
           </p>
 
           <p>
             <img
               className="Tailwind"
-              src="/public/images/tailwind logo.png"
+              src={sk3}
             ></img>
           </p>
 </div>
@@ -29,11 +34,11 @@ function Skills() {
           <div className="image-container">
         
           <p>
-            <img className="Figma" src="/public/images/figma logo.png"></img>
+            <img className="Figma" src={sk4}></img>
           </p>
 
           <p>
-            <img className="Canva" src="/public/images/canva.jpg"></img>
+            <img className="Canva" src={sk5}></img>
           </p>
 
         </div>
