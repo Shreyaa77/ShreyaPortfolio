@@ -1,26 +1,39 @@
-import "../Components/Contact.css"
-import Footer from "./footer"
-import Navbar from "./navbar"
+import "../Components/Contact.css";
+import Footer from "./footer";
+import Navbar from "./navbar";
 function Contact() {
-
   return (
     <>
-<Navbar/>
+      <Navbar />
 
-    {/*Contact section */}
-   
-<section id="contact" className="contact-body">
-<h2 className='contact'>Contact Me:</h2>
-<p className="details">Contact number: <a href="tel:+353 899828713">+353 899828713</a></p>
-<p className="details">Email: <a href="mailto:24150002@studentmail.ul.ie">24150002@studentmail.ul.ie</a></p> {/* Email link */}
-<p className="details">LinkedIn: <a href="https://www.linkedin.com/in/shreya-shinde-6005a1275/" target="_blank">https://www.linkedin.com</a></p>
+      {/*Contact section */}
 
-</section>
+      <section id="contact" className="contact-body">
+        <h2 className="contact">Contact Me:</h2>
+        <p className="details">
+          Contact number: <a href="tel:+353 899828713">+353 899828713</a>
+        </p>
+        <p className="details">
+          Email:{" "}
+          <a href="mailto:24150002@studentmail.ul.ie">
+            24150002@studentmail.ul.ie
+          </a>
+        </p>{" "}
+        {/* Email link */}
+        <p className="details">
+          LinkedIn:{" "}
+          <a
+            href="https://www.linkedin.com/in/shreya-shinde-6005a1275/"
+            target="_blank"
+          >
+            https://www.linkedin.com
+          </a>
+        </p>
+      </section>
 
-<Footer/>
-
+      <Footer />
     </>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
