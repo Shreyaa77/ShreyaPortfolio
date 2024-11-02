@@ -24,10 +24,18 @@ function Skills() {
               src="/public/images/tailwind logo.png"
             ></img>
           </p>
+</div>
 
+          <div className="image-container">
+        
           <p>
             <img className="Figma" src="/public/images/figma logo.png"></img>
           </p>
+
+          <p>
+            <img className="Canva" src="/public/images/canva.jpg"></img>
+          </p>
+
         </div>
       </section>
 

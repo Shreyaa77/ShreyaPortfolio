@@ -15,7 +15,7 @@ function Blog() {
               src="/public/images/Business type Headshot.jpg"
             ></img>
           </p>
-          <p className="story text-center pt-20">
+          <p className="story pt-20">
             Hello My name is Shreya. Nice to meet you.
           </p>
         </div>
@@ -28,15 +28,14 @@ function Blog() {
             ></img>
           </p>
           <p className="story2 text-center pt-20">
-            I took this photo at night. The moon was looking very beautiful and
-            huge so I inspired me to get a click of it. I wanted to capture the
-            largeness of the moon in the night sky. The beautiful lonely streets
-            at night gives a feeling of longing to me for some reason. The
-            street lights along with the moon and the car headlights gives a
-            perfect aesthetic shot. To capture the moon especially I turned down
-            the light in my camera settings completely low. This made the
-            moonlight, the streetlight and the car headlights pop out. Giving
-            this beautiful aesthetic shot.
+            The beautiful moon in the night sky inspired me to capture it. 
+            This empty street at night gives a feeling of longing for some reason. The
+            street-lights along with the moon and the car headlights gives a
+            perfect aesthetic shot. </p>
+            <p className="story2 text-center">
+            To capture the moon I turned down the light in my camera settings completely. This made the
+            moonlight, the streetlight and the car headlights pop out. 
+            Giving us this beautiful aesthetic shot.
           </p>
         </div>
 
