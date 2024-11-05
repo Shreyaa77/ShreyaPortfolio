@@ -12,13 +12,13 @@ import Home from "./Components/Home";
 function App() {
   return (<>
 <Navbar></Navbar>
-    <BrowserRouter>
+    <BrowserRouter basename="/ShreyaPortfolio">
       <Routes>
-        <Route path="/ShreyaPortfolio/" element={<Home />} />
-        <Route path="/ShreyaPortfolio/about" element={<About />} />
-        <Route path="/ShreyaPortfolio/skills" element={<Skills />} />
-        <Route path="/ShreyaPortfolio/contact" element={<Contact />} />
-        <Route path="/ShreyaPortfolio/blog" element={<Blog/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog/>} />
       </Routes>
     </BrowserRouter>
     </>
