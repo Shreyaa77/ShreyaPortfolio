@@ -12,7 +12,7 @@ import Home from "./Components/Home";
 function App() {
   return (<>
 <Navbar></Navbar>
-    <BrowserRouter basename="/ShreyaPortfolio">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

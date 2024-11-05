@@ -5,6 +5,7 @@ import sk2 from "./../images/CSS logo.webp";
 import sk3 from "./../images/tailwind logo.png";
 import sk4 from "./../images/figma logo.png";
 import sk5 from "./../images/canva.jpg";
+import Footer from "./footer";
 function Skills() {
   return (
     <>
@@ -44,14 +45,7 @@ function Skills() {
         </div>
       </section>
 
-      <footer className="footer">
-        {" "}
-        {/* Footer section */}
-        <p>
-          &copy; {new Date().getFullYear()} Shreya Shinde. All Rights Reserved.
-        </p>{" "}
-        {/* Dynamic copyright year */}
-      </footer>
+     <Footer/>
     </>
   );
 }
